@@ -1,63 +1,142 @@
-export const impDatesEvents=[
+import { Period } from "../components/period"
+import { Event } from "../components/event"
+import React from 'react'
+import timeline from "../css/timeline.module.css"
+
+
+export const impDatesEvents = [
     {
-        title:'January 1',
-        cardDetailedText:'New Year’s Day '
+        title: (<Event date='January 1' />),
+        cardDetailedText:
+            (
+                <p>
+                    New Year’s Day.
+                </p>
+            )
     },
     {
-        title:'January 11',
-        cardDetailedText:'Sir John A. Macdonald Day',
+        title: (<Event date='January 11' />),
+        cardDetailedText:
+            (
+                <p>
+                    Sir John A. Macdonald Day.
+                </p>
+            ),
     },
     {
-        title:'Friday, preceding Easter Sunday',
-        cardDetailedText:'Good Friday.'
+        title: (<Event date='Friday, preceding Easter Sunday' />),
+        cardDetailedText:
+            (
+                <p>
+                    Good Friday.
+                </p>
+            )
     },
     {
-        title:'Monday following Easter Sunday',
-        cardDetailedText:'Easter Monday'
+        title: (<Event date='Monday, following Easter Sunday' />),
+        cardDetailedText:
+            (
+                <p>
+                    Easter Monday
+                </p>
+            )
     },
     {
-        title:'April 9',
-        cardDetailedText:'Vimy Day.'
+        title: (<Event date='April 9' />),
+        cardDetailedText:
+            (
+                <p>
+                    Vimy Day.
+                </p>
+            )
     },
     {
-        title:'Monday preceding May 25',
-        cardDetailedText:'Victoria Day'
+        title: (<Event date='Monday, preceding May 25' />),
+        cardDetailedText: (
+            <p>
+                Victoria Day
+            </p>
+        )
     },
     {
-        title:'May 25',
-        cardDetailedText:'Sovereign’s birthday'
+        title: (<Event date='May 25' />),
+        cardDetailedText: (
+            <p>
+                Sovereign’s birthday
+            </p>
+        )
     },
     {
-        title:'June 24',
-        subTitle:'Quebec',
-        cardDetailedText:'Feast of St. John the Baptist.',
+        title: (<Event date='June 24' />),
+        cardDetailedText:
+            (
+                <>
+                    <p className={timeline.pill}>Quebec</p>
+                    <p>Feast of St. John the Baptist.</p>
+                </>
+
+            ),
     },
     {
-        title:'July 1',
-        cardDetailedText:'Canada Day.'
+        title: (<Event date='July 1' />),
+        cardDetailedText:
+            (
+                <p>
+                    🇨🇦 Canada Day.
+                </p>
+            )
     },
     {
-        title:'First Monday of September',
-        cardDetailedText:'Labour Day.'
+        title: (<Event date='First Monday of September' />),
+        cardDetailedText:
+            (
+                <p>
+                    Labour Day.
+                </p>
+            )
     },
     {
-        title:'Second Monday of October',
-        cardDetailedText:'Thanksgiving Day.'
+        title: (<Event date='Second Monday of October' />),
+        cardDetailedText:
+            (
+                <p>
+                    Thanksgiving Day.
+                </p>
+            )
     },
     {
-        title:'November 11',
-        cardDetailedText:'Remembrance Day. Canadians wear the red poppy and observe a moment of silence at the 11th hour of the 11th day of the 11th month to honour the sacrifices of over a million people who have served, and the 110,000 who have given their lives in all wars in which Canadians took part.'
+        title: (<Event date='November 11' />),
+        cardDetailedText:
+            (
+                <p>
+                    Remembrance Day. Canadians wear the red poppy and observe a moment of silence at the 11th hour of the 11th day of the 11th month to honour the sacrifices of over a million people who have served and the 110,000 who have given their lives in all wars Canadians took part.                </p>
+            )
     },
     {
-        title:'November 20',
-        cardDetailedText:'Sir Wilfrid Laurier Day.'
+        title: (<Event date='November 20' />),
+        cardDetailedText:
+            (
+                <p>
+                    Sir Wilfrid Laurier Day.
+                </p>
+            )
     },
     {
-        title:'December 25',
-        cardDetailedText:'Christmas Day.'
+        title: (<Event date='December 25' />),
+        cardDetailedText:
+            (
+                <p>
+                    Christmas Day.
+                </p>
+            )
     },
     {
-        title:'December 26',
-        cardDetailedText:'Boxing day.'
+        title: (<Event date='December 26' />),
+        cardDetailedText:
+            (
+                <p>
+                    Boxing day.
+                </p>
+            )
     }
 ]

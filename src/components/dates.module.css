@@ -1,0 +1,23 @@
+.periodContainer {
+  display: flex;
+  width: 100%;
+  position: relative;
+  height: 1.5rem;
+}
+
+.eventcontainer {
+  
+  display: flex;
+  position: relative;
+}
+
+
+.divider {
+  width: 1rem;
+  height: 20px;
+}
+
+.datecontainer {
+  margin: 0;
+}
+

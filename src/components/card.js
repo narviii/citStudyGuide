@@ -1,18 +1,18 @@
 import React from "react"
 import timeline from '../css/timeline.module.css'
 
-export function Card({ title, subTitle, text }) {
+export function Card({ title, subTitle, text,titleWidth }) {
     return (
         <article className={timeline.card}>
-            <h3 className={timeline.title}>
+            <div style={{width:titleWidth}} className={timeline.title}>
                 {title}
-            </h3>
+            </div>
 
 
-            <p className={timeline.cardDetailedText}>
+            <div className={timeline.cardDetailedText}>
                 {subTitle ? <p className={timeline.pill}>{subTitle}</p> : null}
                 {text}
-            </p>
+            </div>
         </article>
     )
 }

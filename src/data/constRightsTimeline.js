@@ -13,9 +13,9 @@ export const rightsTimeline = [
                         Magna Carta signed (Great Charter of Freedoms) in England became a start of the Canadian history of ordered liberty:
                     </p>
                     <ul>
-                        <li>Freedom of conscience and religion;</li>
-                        <li>Freedom of thought, belief, opinion and expression, including freedom of speech and of the press;</li>
-                        <li>Freedom of peaceful assembly</li>
+                        <li>Freedom of conscience and religion.</li>
+                        <li>Freedom of thought, belief, opinion and expression, including freedom of speech and of the press</li>
+                        <li>Freedom of peaceful assembly.</li>
                         <li>Freedom of association.</li>
                     </ul>
                 </>
